@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #edefeb;
+    padding: 40px 60px;
+}
+
+.container {
+    background-color: #fefffc;
+}
+
+.content{
+    border: 1px solid #cccecb;
+    padding: 10px;
+}
+
+.Page__List{
+    margin-top: 20px;
+}
+.ItemNew{
+    margin-bottom: 20px;
+}
+
+.ItemNew__Date{
+    display: inline-block;
+    background-color: #832b5b;
+    color: white;
+    padding: 1px 3px;
+    margin-right: 3px;
+}
+.ItemNew__Title{
+    display: inline-block;
+}
+.ItemNew__Announce{
+    margin-top: 2px;
+}
+
+
+
+
+hr{
+    margin-bottom: 4px;
+}
+
+.line {
+    margin:5px 0;
+    height:2px;
+    background:
+            repeating-linear-gradient(to right,#832b5b 0,#832b5b 3px,transparent 3px,transparent 7px)
+    /*3px red then 4px transparent -> repeat this!*/
+}
+
+.Nav__Btn {
+    margin-top: 10px;
+}
+
+
+
+
+
+.active{
+    background-color: #832b5b;
+    color: white;
+}
+.nonactive {
+    color: black;
+    background-color: #edefeb;
+}
+
+.Btn-Item {
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid #cccecb;
+    text-align: center;
+    margin: 2px;
+    width: 45px;
+}
+
+
+
+.Singe__Page--title{
+    margin:10px 0 5px;
+}
+.Singe__Page--content{
+    padding-right: 10px;
+}
+.Singe__Page--content > p{
+    margin: 12px 0;
+}
+.Singe__Page--link{
+    display: inline-block;
+    margin: 10px 0 15px 0;
+    font-size: 18px;
+}
+
